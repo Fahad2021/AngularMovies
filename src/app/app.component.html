@@ -1,0 +1,16 @@
+<!-- <input type="file" style="display:none;" #uploader />
+<button (click)="uploader.click()">Load File</button> -->
+
+
+<app-menu></app-menu>
+<!-- <app-rating (onRating)="handleRating($event)"></app-rating> -->
+
+<div class="container">
+<h1>Threands Realease</h1>
+<!-- properties buinding -->
+<app-movies-list [movies]="moviesThreaders"></app-movies-list>
+
+<h1>Future Realease</h1>
+<!-- properties buinding -->
+<app-movies-list [movies]="moviesFuturerelease"></app-movies-list>
+</div>
